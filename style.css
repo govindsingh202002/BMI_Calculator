@@ -1,0 +1,27 @@
+body{
+    background-color: rgba(49, 35, 35, 0.712);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border: 1px solid black; 
+    height:60vh;
+    border-radius: 10%;  
+    font-size: large;
+    background-color: rgba(122, 156, 94, 0.767);
+}
+form input{
+    font-size: 15px;
+}
+button{
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: none;
+    margin:0 0 20px 0;
+}
